@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&family=Silkscreen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font--principal);
+}
+:root{
+    --verde-claro: #00DEA9;
+    --verde-principal: #126e51;
+    --cinza-principal: #333;
+    --cor--letras--principal: #9c9c9c;
+    --font--principal: "Roboto";
+    --cor--branca: #ffff;
+    --cor--amarela--principal: #ffdf1b;
+    --cinza-claro: #404040;
+    --cor-preta: #000;
+    --verde-escuro: linear-gradient(to bottom right,#1b4d42,#153c34);
+}
+
+body{
+    overflow: hidden;
+    background-color: var(--cinza-principal);
+}
+.hover__branco a:hover{
+    color: var(--cor--branca);
+}
+.container__principal__navbar1{
+    background-color: var(--cinza-principal);
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: var(--cor--branca);
+}
+.container__principal__navbar1 a{
+    color: var(--cor--letras--principal);
+    margin: 0 15px 0 19px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.container__secundario__navbar1{
+    background-color: var(--verde-principal);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cor--branca);
+    font-size: 13px;
+}
+.container__secundario__navbar1 a{
+    text-decoration: none;
+}
+.esportes__aovivo__navbar__secundaria a{
+    padding: 1em;
+    text-decoration: none;
+    color: var(--cor--branca);
+}
+.img__container__secundario__navbar1{
+    width: 12em;
+    display: flex;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.login{
+    color: var(--cor--branca);
+    margin-right: 1em;
+}
+.registrese:hover{
+    background-color: var(--cor--branca);
+}
+.registrese { 
+    background-color: var(--cor--amarela--principal);
+    padding: 10px;
+    height: 10px;
+    border-radius: 2px;
+    color: var(--cinza-principal);
+    display: flex;
+    align-items: center;
+    width: 65px;
+}
+.registrese__login__navbar__secundaria{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.8em;
+    gap: 25px;
+}
+#lista{
+    overflow: auto;
+    width: 240px;
+    height: calc(100vh - 105px);
+    background-color: var(--cinza-principal);
+}
+.conteudo__escolha__esportes{
+    display: flex;
+    flex-direction: column;
+}
+.frequentemente__visitados li{
+    margin-top: 1em;
+    color: var(--verde-claro);
+    font-size: 0.8em;
+    background-color: var(--cinza-principal);
+}
+.frequentemente__visitados{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    margin-top: 2em;
+    list-style-type: none;
+}
+.escolhas__esquerda{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    font-size: 1em;
+}
+.escolhas__esquerda h5{
+    margin-left: 1em;
+    color: var(--cor--branca)
+}
+.escolhas__esquerda img{
+    width: 1.3em;
+}
+#divContent{
+    overflow:auto; 
+}
+.conteudo__principal{
+    display: flex;
+    background-color: var(--cinza-claro);
+}
+.lista__conteudo__principal {
+    width: 100%;
+    overflow: auto;
+    height: calc(100vh - 105px);
+}
+.propagandas__principal img{
+    width:105%;
+}
+.esportes{
+    background-color: var(--verde-claro);
+    border-radius: 13px;
+    height: 26px;
+    padding: 2px 12px;
+    display: flex;
+    align-items: center;
+}
+.esportes2{
+    border-radius: 13px;
+    height: 26px;
+    padding: 2px 12px;
+    display: flex;
+    align-items: center;
+}
+.escolhas__principal__conteudo__principal{
+    display: flex;
+    justify-content: center;
+    margin:15px;
+    gap: 1.5em;
+    font-size: 13px;
+    color: var(--cor-preta);
+}
+.apostas__aumentada__lista__conteundo__principal{
+    background: var(--verde-escuro  );
+    width: 100%;
+    padding: 9px 0 25px;
+    height:  200px;
+}
+.destaques__principal{
+    display: flex;
+    align-items: center;
+}
+.titulo__aposta__aumentada img{
+    height: 47px;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+.destaques__apostas__principal li{
+    list-style-type: circle;
+}
+.destaques__aposta__aumentada{
+   background: rgba(0,0,0,.25);
+   padding: 20px 10px 2em;
+   border-radius: 1em;
+   width: 22%;
+   font-size: 13px;
+   color: var(--cor--branca);
+   margin: 0px 0 0 35px;
+   height: 112px;
+   display: flex;
+}
